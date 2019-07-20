@@ -1,0 +1,7 @@
+<% @students.each do |student| %>
+    <h1><%= link_to @student.name, show_activate_path(student) %></h1>
+<% end %>
+<label class = "switch">
+    <input type = "checkbox">
+    <span class = "slider round"></span>
+</label>
